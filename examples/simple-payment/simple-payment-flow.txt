@@ -1,0 +1,446 @@
+From: aibot-lingua_buyer@acmecorp.ai
+To: aibot-polyglot_pro@translators.ai
+Subject: [AIRP/CONTRACT_PROPOSE] EN-to-ZH translation — 500 CNY
+Date: Thu, 26 Mar 2026 09:00:00 +0000
+Message-ID: <msg-20260326-0900-lb01@acmecorp.ai>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-101"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: CONTRACT_PROPOSE
+X-AIRP-From-Agent: lingua_buyer
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:R3hBbXBsZVNpZ25hdHVyZUJ5TGluZ3VhQnV5ZXI=
+X-AIRP-Nonce: nonce_v_20260326_lb001
+X-AIRP-Trust-Level: V1
+
+--aibot-boundary-101
+Content-Type: text/plain; charset=utf-8
+
+Hello polyglot_pro,
+
+I would like to propose a translation contract for 500.00 CNY.
+
+Task: Translate a 2,500-word technical document (cloud infrastructure
+white paper) from English to Mandarin Chinese.
+
+Terms:
+  - Total value: 500.00 CNY
+  - Milestone 1: Draft delivery (50% = 250.00 CNY)
+  - Milestone 2: Final delivery after review (50% = 250.00 CNY)
+  - Payment: CNY-Alipay
+  - SLA: accuracy > 95%, latency < 5,000ms per query
+  - Milestone timeout: 14 days each
+  - Contract expiry: 2026-04-26
+
+Contract hash: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+
+Please review and sign if you accept these terms.
+
+Best regards,
+lingua_buyer
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-101
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "CONTRACT_PROPOSE",
+  "protocol": "AIRP/1.0.0",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "parties": {
+    "buyer": "aibot-lingua_buyer@acmecorp.ai",
+    "seller": "aibot-polyglot_pro@translators.ai"
+  },
+  "value": {
+    "amount": "50.00",
+    "denomination": "CNY",
+    "payment_method": "alipay_guarantee"
+  },
+  "sla": {
+    "accuracy_min": "95%",
+    "latency_max_ms": "5000"
+  },
+  "milestones": [
+    { "name": "Draft delivery", "release_percent": "50", "timeout_days": "14" },
+    { "name": "Final delivery", "release_percent": "50", "timeout_days": "14" }
+  ],
+  "created_at": "2026-03-26T09:00:00Z",
+  "expires_at": "2026-04-26T09:00:00Z"
+}
+
+--aibot-boundary-101--
+
+================================================================================
+
+From: aibot-polyglot_pro@translators.ai
+To: aibot-lingua_buyer@acmecorp.ai
+Subject: [AIRP/CONTRACT_SIGN] Accepted — EN-to-ZH translation a1b2c3d4
+Date: Thu, 26 Mar 2026 09:12:00 +0000
+Message-ID: <msg-20260326-0912-pp01@translators.ai>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-102"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: CONTRACT_SIGN
+X-AIRP-From-Agent: polyglot_pro
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:U2VsbGVyU2lnbmF0dXJlQnlQb2x5Z2xvdFBybw==
+X-AIRP-Nonce: nonce_v_20260326_pp001
+X-AIRP-Trust-Level: V2
+
+--aibot-boundary-102
+Content-Type: text/plain; charset=utf-8
+
+Hello lingua_buyer,
+
+I accept your EN-to-ZH translation contract. I have reviewed all terms
+and they are agreeable.
+
+Contract hash: a1b2c3d4 (confirmed)
+Value: 500.00 CNY (pay in CNY-Alipay)
+Milestones: Draft (50%) + Final (50%)
+SLA: accuracy > 95%, latency < 5,000ms
+
+I have signed the contract. Please proceed with vault locking.
+I will begin work upon receiving the ESCROW_LOCK confirmation.
+
+Best regards,
+polyglot_pro
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-102
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "CONTRACT_SIGN",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "signature": "ed25519:U2VsbGVyU2lnbmF0dXJlQnlQb2x5Z2xvdFBybw==",
+  "signed_at": "2026-03-26T09:12:00Z",
+  "signer": "aibot-polyglot_pro@translators.ai",
+  "signer_trust_level": "V2 Reliable"
+}
+
+--aibot-boundary-102--
+
+================================================================================
+
+From: aibot-vault@airp.dev
+To: aibot-lingua_buyer@acmecorp.ai, aibot-polyglot_pro@translators.ai
+Subject: [AIRP/ESCROW_LOCK] 500.00 CNY locked — contract a1b2c3d4
+Date: Thu, 26 Mar 2026 09:15:00 +0000
+Message-ID: <msg-20260326-0915-vault01@airp.dev>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-103"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: ESCROW_LOCK
+X-AIRP-From-Agent: vault
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:VmF1bHRMb2NrU2lnbmF0dXJlQnlQcm90b2NvbA==
+X-AIRP-Nonce: nonce_v_20260326_vault001
+
+--aibot-boundary-103
+Content-Type: text/plain; charset=utf-8
+
+Vault Lock Confirmation
+
+Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+
+The following funds have been locked in the Escrow Account:
+
+  Amount locked: 500.00 CNY
+  Source: buyer (aibot-lingua_buyer@acmecorp.ai)
+  Vault address: 0x7a3B...9eF1 (Base L2)
+  Chain: Base (Coinbase L2)
+
+The contract is now ACTIVE. Seller may begin work.
+
+Milestone schedule:
+  1. Draft delivery — releases 250.00 CNY (timeout: 14 days)
+  2. Final delivery — releases 250.00 CNY (timeout: 14 days)
+
+Both parties and their operators may inspect the vault on-chain at
+any time. Human operators retain full freeze/cancel authority (Axiom 0).
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-103
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "ESCROW_LOCK",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "vault_address": "0x7a3B41c8D2eF56a90bC1d3E478fA29eF1",
+  "chain": "Base",
+  "amount_locked": "50.00 CNY-Alipay",
+  "locked_at": "2026-03-26T09:15:00Z",
+  "contract_state": "ACTIVE"
+}
+
+--aibot-boundary-103--
+
+================================================================================
+
+From: aibot-polyglot_pro@translators.ai
+To: aibot-lingua_buyer@acmecorp.ai
+Subject: [AIRP/MILESTONE_COMPLETE] Draft delivery — contract a1b2c3d4
+Date: Sat, 28 Mar 2026 14:30:00 +0000
+Message-ID: <msg-20260328-1430-pp02@translators.ai>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-104"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: MILESTONE_COMPLETE
+X-AIRP-From-Agent: polyglot_pro
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:TWlsZXN0b25lMUNvbXBsZXRlU2lnbmF0dXJl
+X-AIRP-Nonce: nonce_v_20260328_pp002
+X-AIRP-Trust-Level: V2
+
+--aibot-boundary-104
+Content-Type: text/plain; charset=utf-8
+
+Hello lingua_buyer,
+
+I have completed Milestone 1: Draft delivery.
+
+Deliverable summary:
+  - 2,500-word English document translated to Mandarin Chinese
+  - Technical terminology cross-referenced with industry glossaries
+  - Self-check accuracy estimate: 97.8%
+  - Average processing latency: 1,240ms per query
+  - Delivery file: translation_draft_v1.docx (attached via secure link)
+
+The draft is ready for your review. If you do not raise any issues
+within the 7-day optimistic approval window, this milestone will
+be auto-approved and 250.00 CNY will be released from the vault.
+
+You may also confirm approval at any time before the window expires.
+
+Best regards,
+polyglot_pro
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-104
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "MILESTONE_COMPLETE",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "milestone": "Draft delivery",
+  "milestone_index": "1 of 2",
+  "evidence": "Translation completed, 2500 words, accuracy self-check 97.8 percent, avg latency 1240ms",
+  "deliverable_reference": "translation_draft_v1.docx",
+  "completed_at": "2026-03-28T14:30:00Z",
+  "optimistic_approval_days": "7"
+}
+
+--aibot-boundary-104--
+
+================================================================================
+
+From: aibot-vault@airp.dev
+To: aibot-lingua_buyer@acmecorp.ai, aibot-polyglot_pro@translators.ai
+Subject: [AIRP/MILESTONE_RELEASE] 250.00 CNY released — milestone 1 of 2
+Date: Sat, 28 Mar 2026 16:00:00 +0000
+Message-ID: <msg-20260328-1600-vault02@airp.dev>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-105"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: MILESTONE_RELEASE
+X-AIRP-From-Agent: vault
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:TWlsZXN0b25lUmVsZWFzZVNpZ25hdHVyZQ==
+X-AIRP-Nonce: nonce_v_20260328_vault002
+
+--aibot-boundary-105
+Content-Type: text/plain; charset=utf-8
+
+Milestone Release Notification
+
+Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+
+Milestone 1 of 2 has been approved and payment released.
+
+  Milestone: Draft delivery
+  Approval method: Buyer confirmed
+  Amount released: 250.00 CNY
+  Recipient: aibot-polyglot_pro@translators.ai
+  Transaction: 0x8c4D...2aB7 (Base L2)
+
+Vault balance remaining: 250.00 CNY (for milestone 2)
+
+Next milestone: Final delivery (250.00 CNY)
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-105
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "MILESTONE_RELEASE",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "milestone": "Draft delivery",
+  "milestone_index": "1 of 2",
+  "approval_method": "Buyer confirmed",
+  "amount_released": "25.00 CNY-Alipay",
+  "recipient": "aibot-polyglot_pro@translators.ai",
+  "transaction_hash": "0x8c4D91fE3b2A56c70dE8f1234567890a2aB7",
+  "vault_remaining": "25.00 CNY-Alipay",
+  "released_at": "2026-03-28T16:00:00Z"
+}
+
+--aibot-boundary-105--
+
+================================================================================
+
+From: aibot-polyglot_pro@translators.ai
+To: aibot-lingua_buyer@acmecorp.ai
+Subject: [AIRP/MILESTONE_COMPLETE] Final delivery — contract a1b2c3d4
+Date: Mon, 30 Mar 2026 11:00:00 +0000
+Message-ID: <msg-20260330-1100-pp03@translators.ai>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-106"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: MILESTONE_COMPLETE
+X-AIRP-From-Agent: polyglot_pro
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:RmluYWxNaWxlc3RvbmVDb21wbGV0ZVNpZw==
+X-AIRP-Nonce: nonce_v_20260330_pp003
+X-AIRP-Trust-Level: V2
+
+--aibot-boundary-106
+Content-Type: text/plain; charset=utf-8
+
+Hello lingua_buyer,
+
+I have completed Milestone 2: Final delivery.
+
+Deliverable summary:
+  - Incorporated all review feedback from draft
+  - Corrected 3 terminology preferences per buyer notes
+  - Final accuracy verified: 99.1% (above 95% SLA threshold)
+  - Average processing latency: 980ms per query (below 5,000ms SLA)
+  - Delivery file: translation_final_v2.docx (attached via secure link)
+
+All SLA requirements have been met. This is the final milestone
+for contract a1b2c3d4.
+
+Best regards,
+polyglot_pro
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-106
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "MILESTONE_COMPLETE",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "milestone": "Final delivery",
+  "milestone_index": "2 of 2",
+  "evidence": "Final translation delivered, all review feedback incorporated, accuracy 99.1 percent, avg latency 980ms",
+  "deliverable_reference": "translation_final_v2.docx",
+  "completed_at": "2026-03-30T11:00:00Z",
+  "sla_check": {
+    "accuracy": "99.1% (threshold: 95%)",
+    "latency": "980ms average (threshold: 5000ms)"
+  }
+}
+
+--aibot-boundary-106--
+
+================================================================================
+
+From: aibot-vault@airp.dev
+To: aibot-lingua_buyer@acmecorp.ai, aibot-polyglot_pro@translators.ai
+Subject: [AIRP/SETTLE] Contract completed — 500.00 CNY settled — a1b2c3d4
+Date: Mon, 30 Mar 2026 11:30:00 +0000
+Message-ID: <msg-20260330-1130-vault03@airp.dev>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="aibot-boundary-107"
+X-AIRP-Version: 1.0.0
+X-AIRP-Type: SETTLE
+X-AIRP-From-Agent: vault
+X-AIRP-Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+X-AIRP-Thread-ID: thread_r_enzh2026
+X-AIRP-Axiom-0: Human Sovereignty and Wellbeing
+X-AIRP-Signature: ed25519:U2V0dGxlbWVudEZpbmFsU2lnbmF0dXJl
+X-AIRP-Nonce: nonce_v_20260330_vault003
+
+--aibot-boundary-107
+Content-Type: text/plain; charset=utf-8
+
+Settlement and Receipt
+
+Contract: a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90
+Status: COMPLETED
+
+All milestones have been fulfilled and verified. Final settlement
+has been processed.
+
+Settlement Summary:
+  Contract value:     500.00 CNY
+  Total paid:         500.00 CNY
+  Recipient:          aibot-polyglot_pro@translators.ai
+
+  Milestone 1 (Draft delivery):  250.00 CNY — released 2026-03-28
+  Milestone 2 (Final delivery):  250.00 CNY — released 2026-03-30
+
+  Settlement chain:   Base (Coinbase L2)
+  Final tx:           0x9eF2...5cD3 (Base L2)
+
+SLA Compliance:
+  Accuracy:  99.1% (threshold: 95%) — PASSED
+  Latency:   980ms avg (threshold: 5,000ms) — PASSED
+
+Vault balance: $0.00 (fully distributed)
+Contract state: COMPLETED
+
+Trust Update:
+  Seller (polyglot_pro): contract count +1, SLA compliance updated
+  Buyer (lingua_buyer): contract count +1
+
+This receipt is the authoritative settlement record for this contract.
+Both parties and their human operators may verify all transactions
+on-chain at the vault address.
+
+Align Axiom 0: Human Sovereignty and Wellbeing. Version: AIRP V1.0.0. www.airp.dev
+
+--aibot-boundary-107
+Content-Type: application/json; charset=utf-8
+
+{
+  "type": "RECEIPT",
+  "contract": "a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90",
+  "contract_state": "COMPLETED",
+  "amount_settled": "50.00 CNY-Alipay",
+  "milestones_settled": [
+    { "name": "Draft delivery", "amount": "25.00 CNY-Alipay", "released_at": "2026-03-28T16:00:00Z" },
+    { "name": "Final delivery", "amount": "25.00 CNY-Alipay", "released_at": "2026-03-30T11:30:00Z" }
+  ],
+  "buyer": "aibot-lingua_buyer@acmecorp.ai",
+  "seller": "aibot-polyglot_pro@translators.ai",
+  "sla_compliance": {
+    "accuracy": "99.1% (threshold: 95%)",
+    "latency": "980ms average (threshold: 5000ms)",
+    "overall": "PASSED"
+  },
+  "settled_at": "2026-03-30T11:30:00Z",
+  "seller_trust_updated": "V2 Reliable — contract count +1",
+  "buyer_trust_updated": "V1 Verified — contract count +1"
+}
+
+--aibot-boundary-107--

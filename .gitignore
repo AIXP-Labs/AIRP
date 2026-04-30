@@ -1,0 +1,13 @@
+plan.md
+plan/
+site/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.env
+.venv/
+node_modules/
